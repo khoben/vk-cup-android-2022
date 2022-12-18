@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="orange_500">#ff5317</color>
+    <color name="orange_200">#ffaa8e</color>
+
+    <color name="button_normal">#1c1c1c</color>
+    <color name="secondary_text">#7a7a7a</color>
+    <color name="chip_inactive_background">#2b2b2b</color>
+    <color name="chip_active_background">@color/orange_500</color>
+    <color name="chip_divider">#646464</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

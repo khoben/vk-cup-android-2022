@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">dzen-onboarding</string>
+    <string name="later">Later</string>
+    <string name="mark_interest">Check what you\'re interested in\nto customize Dzen</string>
+    <string name="continue_caption">Continue</string>
+    <string name="humor">Humor</string>
+    <string name="eating">Eating</string>
+    <string name="movies">Movies</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="walking">Walking</string>
+    <string name="politics">Politics</string>
+    <string name="news">News</string>
+    <string name="auto">Auto</string>
+    <string name="serials">Serials</string>
+    <string name="recipes">Recipes</string>
+    <string name="work">Work</string>
+    <string name="relax">Relax</string>
+    <string name="sport">Sport</string>
+    <string name="later_clicked">Later clicked</string>
+    <string name="continue_clicked">Chosen cat ids: %1$s</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">dzen-onboarding</string>
+    <string name="later">Позже</string>
+    <string name="mark_interest">Отметьте то, что вам интересно,\nчтобы настроить Дзен</string>
+    <string name="continue_caption">Продолжить</string>
+    <string name="humor">Юмор</string>
+    <string name="eating">Еда</string>
+    <string name="movies">Кино</string>
+    <string name="restaurants">Рестораны</string>
+    <string name="walking">Прогулки</string>
+    <string name="politics">Политика</string>
+    <string name="news">Новости</string>
+    <string name="auto">Авто</string>
+    <string name="serials">Сериалы</string>
+    <string name="recipes">Рецепты</string>
+    <string name="work">Работа</string>
+    <string name="relax">Отдых</string>
+    <string name="sport">Спорт</string>
+    <string name="later_clicked">Нажато позже</string>
+    <string name="continue_clicked">Выбраны категории с id: %1$s</string>
+</resources>
