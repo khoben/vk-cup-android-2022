@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MultiStagePollView">
+        <attr name="stageTimeout" format="integer" />
+
+        <attr name="itemsVerticalMargin" format="dimension" />
+
+        <attr name="defaultBackground" format="color" />
+        <attr name="correctBackground" format="color" />
+        <attr name="incorrectBackground" format="color" />
+
+        <attr name="correctIcon" format="reference" />
+        <attr name="incorrectIcon" format="reference" />
+        <attr name="correctIconTint" format="color" />
+        <attr name="incorrectIconTint" format="color" />
+    </declare-styleable>
+</resources>

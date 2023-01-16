@@ -1,0 +1,21 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+    }
+}
+rootProject.name = "zen-elements"
+include ':app'
+include ':ui-elements:rating'
+include ':ui-elements:poll'
+include ':ui-elements:fill-blanks'
+include ':ui-elements:draggable-match'
+include ':ui-elements:draggable-fill-blanks'

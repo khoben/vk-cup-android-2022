@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FillBlanksView">
+        <attr name="draggable" format="boolean" />
+
+        <attr name="start_tag" format="string" />
+        <attr name="end_tag" format="string" />
+
+        <attr name="font_size" format="dimension" />
+        <attr name="text_color" format="color" />
+
+        <attr name="correct_answer_color" format="color" />
+        <attr name="incorrect_answer_color" format="color" />
+    </declare-styleable>
+</resources>

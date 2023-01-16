@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selectable_option_bg"
+    android:clickable="true"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="8dp"
+    tools:backgroundTint="@color/incorrect_option_color">
+
+    <TextView
+        android:id="@+id/option_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ellipsize="none"
+        android:fadingEdgeLength="40dp"
+        android:requiresFadingEdge="horizontal"
+        android:singleLine="true"
+        android:textSize="16sp"
+        tools:text="True Option #1" />
+
+    <ImageView
+        android:id="@+id/option_right_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:minWidth="24dp"
+        android:minHeight="24dp"
+        tools:background="@drawable/ic_round_close_24"
+        tools:backgroundTint="@color/incorrect_icon_color"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/option_percentage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        tools:text="100%" />
+
+</LinearLayout>

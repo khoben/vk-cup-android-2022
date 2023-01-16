@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:parentTag="com.github.khoben.draggable_match.MatchView">
+
+    <com.github.khoben.draggable_match.DraggableRecyclerView
+        android:id="@+id/draggable_part"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:padding="8dp"
+        tools:listitem="@layout/item_layout" />
+
+    <com.github.khoben.draggable_match.DraggableRecyclerView
+        android:id="@+id/undraggable_part"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_weight="1"
+        android:overScrollMode="never"
+        android:padding="8dp"
+        app:draggable="false"
+        tools:listitem="@layout/item_layout" />
+
+</merge>

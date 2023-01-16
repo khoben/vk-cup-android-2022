@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <com.github.khoben.rating.StarRatingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:gap="8dp"
+            app:iconTint="?colorPrimary"
+            app:maxRating="5"
+            app:rating="0"
+            app:step="1" />
+
+        <com.github.khoben.rating.StarRatingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:gap="8dp"
+            app:iconTint="?colorPrimary"
+            app:maxRating="5"
+            app:rating="3.5"
+            app:step="0.5" />
+
+        <com.github.khoben.rating.StarRatingView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            app:gap="8dp"
+            app:iconTint="?colorPrimary"
+            app:maxRating="10"
+            app:rating="6.5"
+            app:step="0.5" />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

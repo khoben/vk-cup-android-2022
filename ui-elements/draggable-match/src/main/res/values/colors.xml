@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_item_color">#2B2B2B</color>
+    <color name="correct_item_color">#4DA6EAB7</color>
+    <color name="incorrect_item_color">#4DF1D1D7</color>
+</resources>

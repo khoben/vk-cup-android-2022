@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:parentTag="com.github.khoben.draggable_fill_blanks.DraggableFillBlanksView">
+
+    <com.github.khoben.fill_blanks.FillBlanksView
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:draggable="true"
+        app:font_size="20sp"
+        app:text_color="?colorOnSurface" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <TextView
+            android:id="@+id/draggable1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/draggable_bg"
+            android:backgroundTint="#2B2B2B"
+            android:padding="8dp"
+            android:text="ipsum"
+            android:textColor="?colorOnSurface" />
+
+        <TextView
+            android:id="@+id/draggable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/draggable_bg"
+            android:backgroundTint="#2B2B2B"
+            android:padding="8dp"
+            android:text="consectetur"
+            android:textColor="?colorOnSurface" />
+
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StarRatingView">
+        <attr name="maxRating" format="integer" />
+        <attr name="step" format="float" />
+        <attr name="gap" format="dimension" />
+        <attr name="rating" format="float" />
+        <attr name="selectedIcon" format="reference" />
+        <attr name="unselectedIcon" format="reference" />
+        <attr name="iconTint" format="color" />
+    </declare-styleable>
+</resources>
